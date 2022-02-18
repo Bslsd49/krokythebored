@@ -12,7 +12,7 @@
   "WEI_COST": 40000000000000000000,
   "DISPLAY_COST": 40,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/kroky-the-bored",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": false,
 }
