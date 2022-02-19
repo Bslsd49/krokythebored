@@ -205,8 +205,7 @@ function App() {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-            <s.TextTitle
+          <s.TextTitle
               style={{
                 textAlign: "center",
                 fontSize: 90,
@@ -307,7 +306,7 @@ function App() {
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledRoundButton
-                        style={{ lineHeight: 0.4 }}
+                        style={{ lineHeight: 0.8 }}
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -356,7 +355,6 @@ function App() {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-        </ResponsiveWrapper>
         <s.SpacerMedium />
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
